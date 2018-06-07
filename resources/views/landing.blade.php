@@ -60,9 +60,9 @@
                                     $('input[name="url"]').select();
                                     document.execCommand("copy");
                                     swal("Copied");
-                                    $('.btnShortenURL').LoadingOverlay('hide');
                                 break;
                             }
+                            $('.btnShortenURL').LoadingOverlay('hide');
                         });
                     }else{
                         swal({
